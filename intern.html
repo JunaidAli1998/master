@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>interview preparation</title>
+    </head>
+
+    <body>
+        <script> 
+
+        const higherArray = [
+            {name : "Ronaldo",club : "Real Madrid" , age: 34, salary : 300000000},
+            {name : "Leo messi",club : "Barcelona" , age: 32, salary : 250000000},
+            {name : "Neymar Jr",club : "Saint paris" , age: 30, salary : 310000000},
+            {name : "Ibrahimovic",club : "Man UTD" , age: 39, salary : 240000000},
+        ]
+
+        const count = [ 23, 3, 32, 14, 9 , 28 , 38 , 12, 19]
+        
+        // Ternary operator example
+        // for (var i = 0 ; i<=count.length-1 ; i++){
+        //     var a = count[i]
+        //     console.log(a)
+        //     a >= 15 ? console.log("greater") : console.log("smaller")   
+        // }
+
+
+        // forEach 
+        // higherArray.forEach(function(values,index){ 
+        //         console.log("index = " + index + "name = " +values.name)
+        // })
+
+
+         //Filter 
+        //  const print = count.filter(function(coun){
+        //      if(coun >=15){
+        //          return true;
+        //      }
+        //  }) 
+
+        //  const print = count.filter(coun => coun <= 20)
+        //  console.log(print)
+
+
+        // Map = create new array with current array
+        // const newArray = higherArray.map (function(value) {
+        //     return `${value.name} ${value.club} - ${value.salary}` + "<br/>";
+        // });
+        // document.write(newArray);
+
+
+        //Sort 
+        // const sortArray = higherArray.sort((a,b) => (a.salary <= b.salary ? 1 : -1));
+        // console.log(sortArray); 
+
+        // const sortArray1 = count.sort();
+        // console.log(sortArray1)
+
+
+
+        // var obj = {
+        //     fName : "M.junaid",
+        //     lName : "Ali khan",
+        //     emailId : "junaid@abc.com",
+        //     Arr : ["ali","imran","saleem"],
+        //     objNew : {
+        //         fName : "zamir",
+        //         lName : "akhter",
+        //         profession : "extremism",
+        //         ArrNew: ["ali","buzer","atir","saleem"]
+        //     },
+        //     funNew : function(){
+        //         var name = this.fName + this.lName;
+        //         var emailId = this.emailId;
+        //         var data = new Date();
+        //         var month = data.getMonth() + "/" + data.getDay() + "/"+ data.getFullYear();
+        //         document.write( "Name : " + name + "<br/>" + month)
+        //         document.write( "<br/>" + "emailId : " + emailId) 
+        //     }
+        // }
+        // function Plan(name,email,address){
+        //     this.name = name;
+        //     this.email = email;
+        //     this.address = address;
+        // }   
+
+        
+        // var plan1 = new Plan("junaid","abc@yahoo.com","sfc5")
+        // document.write(plan1.name + "<br/>")
+        // document.write(plan1.email)
+        // array1 = "lName" in obj;
+        // console.log(array1)
+
+
+        // Rest parameters function
+            // var func = function (...params){
+            //     return (params.length)
+            // }
+            // func(2);
+            // func(4,6);
+            // func(2,4,5,6)
+
+
+        // Anonymous Functions
+            // var x = prompt("Enter the value of x ",x) ;
+            // var y = prompt("Enter the value of y ",y) ;
+            // let funct = function (a,b){ return (a + b)}
+            // function message(x,y){
+            //     y *= x
+            //     return console.log(funct(5,15) + y)
+            // }
+            // console.log(message(x,y))
+       
+       
+        // Function Constructor 
+            // var newFunc = new Function( "a","b", "return a * b" )
+            // console.log(newFunc(4,6))
+       
+        </script>
+    </body>
+</html>
